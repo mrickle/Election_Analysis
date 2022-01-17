@@ -122,6 +122,7 @@ with open(file_to_save, "w") as txt_file:
     txt_file.write(winning_county_summary)
 
     # Save the final candidate vote count to the text file.
+    winning_count = 0
     for candidate_name in candidate_votes:
 
         # Retrieve vote count and percentage
